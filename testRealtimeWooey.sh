@@ -24,7 +24,7 @@ fi
 cd myproject
 if ! ls | grep Procfile; then 
 echo 'web:  python manage.py runserver
-worker: celery -A myproject worker -c 1 --beat -l info
+worker: PYTHONUNBUFFERED=1 celery -A myproject worker -c 1 --beat -l info
 EOM' >> Procfile;
 fi
 ./manage.py addscript ~/slowPrint/a.py
