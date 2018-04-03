@@ -9,7 +9,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 . ~/.bashrc 
 fi
 if ! conda env list | grep wooeytest; then
-conda create -n wooeytest python=3;
+conda create -n wooeytest python=3 -y;
 fi
 . activate wooeytest
 if ! conda list | grep 'wooey '; then
