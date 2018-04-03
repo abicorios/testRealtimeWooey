@@ -12,8 +12,8 @@ If you have your data in these folders, or if you have 'wooeytest' environment i
 ```
 git clone https://github.com/abicorios/testRealtimeWooey
 cd testRealtimeWooey
-chmod +x testRealtimeWooey
-./testRealtimeWooey
+chmod +x testRealtimeWooey.sh
+./testRealtimeWooey.sh
 ```
 Open 127.0.0.1:8000 and run 'a' script. Check, is it realtime.
 For stoping use Ctrl+C in console.
