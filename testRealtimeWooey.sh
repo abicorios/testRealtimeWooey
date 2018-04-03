@@ -6,7 +6,7 @@ echo 'install miniconda3 x86_64 with default path, to ~/miniconda3 and confirm a
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
-. .bashrc 
+. ~/.bashrc 
 fi
 if ! conda env list | grep wooeytest; then
 conda create -n wooeytest python=3;
