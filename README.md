@@ -1,5 +1,5 @@
 # testRealtimeWooey
-This test need for testing of realtime in Wooey.
+This test need for testing of realtime in [Wooey](https://github.com/wooey/Wooey).
 It is work on Linux x64 in home folder. It use miniconda3 x86_64 with wooeytest environment.
 List of folders which are useing:
 ```
